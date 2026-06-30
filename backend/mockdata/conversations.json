@@ -1,0 +1,82 @@
+[
+  {
+    "id": "conv-0001-0000-0000-000000000001",
+    "user_id": "u-cust-0001-0000-0000-000000000001",
+    "session_id": "session-alice-001",
+    "message": "Where is my order ORD-1001?",
+    "sender": "user",
+    "created_at": "2026-06-15T10:00:00.000Z"
+  },
+  {
+    "id": "conv-0001-0000-0000-000000000002",
+    "user_id": "u-cust-0001-0000-0000-000000000001",
+    "session_id": "session-alice-001",
+    "message": "Your order ORD-1001 was delivered on June 14th. You can find the delivery confirmation in your account.",
+    "sender": "agent",
+    "created_at": "2026-06-15T10:00:01.000Z"
+  },
+  {
+    "id": "conv-0001-0000-0000-000000000003",
+    "user_id": "u-cust-0001-0000-0000-000000000002",
+    "session_id": "session-bob-001",
+    "message": "ORD-1003 status please",
+    "sender": "user",
+    "created_at": "2026-06-28T14:00:00.000Z"
+  },
+  {
+    "id": "conv-0001-0000-0000-000000000004",
+    "user_id": "u-cust-0001-0000-0000-000000000002",
+    "session_id": "session-bob-001",
+    "message": "Your order ORD-1003 is currently marked as Delayed. The expected delivery was June 25th. I apologize for the inconvenience.",
+    "sender": "agent",
+    "created_at": "2026-06-28T14:00:02.000Z"
+  },
+  {
+    "id": "conv-0001-0000-0000-000000000005",
+    "user_id": "u-cust-0001-0000-0000-000000000003",
+    "session_id": "session-charlie-001",
+    "message": "When will my ORD-1005 be delivered?",
+    "sender": "user",
+    "created_at": "2026-06-30T09:00:00.000Z"
+  },
+  {
+    "id": "conv-0001-0000-0000-000000000006",
+    "user_id": "u-cust-0001-0000-0000-000000000003",
+    "session_id": "session-charlie-001",
+    "message": "Your order ORD-1005 is in Pending status with an expected delivery of July 5th via BlueDart.",
+    "sender": "agent",
+    "created_at": "2026-06-30T09:00:03.000Z"
+  },
+  {
+    "id": "conv-0001-0000-0000-000000000007",
+    "user_id": "u-cust-0001-0000-0000-000000000004",
+    "session_id": "session-diana-001",
+    "message": "Is my order ORD-1007 delayed?",
+    "sender": "user",
+    "created_at": "2026-06-29T16:00:00.000Z"
+  },
+  {
+    "id": "conv-0001-0000-0000-000000000008",
+    "user_id": "u-cust-0001-0000-0000-000000000004",
+    "session_id": "session-diana-001",
+    "message": "Yes, ORD-1007 is currently delayed. It was expected on June 20th and the last tracking update was June 6th. I have raised a notification for this.",
+    "sender": "agent",
+    "created_at": "2026-06-29T16:00:02.000Z"
+  },
+  {
+    "id": "conv-0001-0000-0000-000000000009",
+    "user_id": "u-cust-0001-0000-0000-000000000005",
+    "session_id": "session-eve-001",
+    "message": "Hello, what can you help me with?",
+    "sender": "user",
+    "created_at": "2026-06-30T11:00:00.000Z"
+  },
+  {
+    "id": "conv-0001-0000-0000-000000000010",
+    "user_id": "u-cust-0001-0000-0000-000000000005",
+    "session_id": "session-eve-001",
+    "message": "Hello! I can help you check the status of your orders. Just provide your order number (like ORD-1009) and I'll look it up.",
+    "sender": "agent",
+    "created_at": "2026-06-30T11:00:01.000Z"
+  }
+]

@@ -1,0 +1,65 @@
+[
+  {
+    "id": "notif-0001-0000-0000-000000000001",
+    "order_id": "ord-0001-0000-0000-000000000003",
+    "notification_type": "Delay Alert",
+    "message": "Order ORD-1003 is delayed. New estimate available.",
+    "created_at": "2026-06-26T08:00:00.000Z"
+  },
+  {
+    "id": "notif-0001-0000-0000-000000000002",
+    "order_id": "ord-0001-0000-0000-000000000007",
+    "notification_type": "Delay Alert",
+    "message": "Order ORD-1007 is delayed. New estimate available.",
+    "created_at": "2026-06-21T09:00:00.000Z"
+  },
+  {
+    "id": "notif-0001-0000-0000-000000000003",
+    "order_id": "ord-0001-0000-0000-000000000012",
+    "notification_type": "Delay Alert",
+    "message": "Order ORD-1012 is delayed. New estimate available.",
+    "created_at": "2026-06-29T10:00:00.000Z"
+  },
+  {
+    "id": "notif-0001-0000-0000-000000000004",
+    "order_id": "ord-0001-0000-0000-000000000001",
+    "notification_type": "Delivery Confirmation",
+    "message": "Order ORD-1001 has been delivered.",
+    "created_at": "2026-06-14T15:00:00.000Z"
+  },
+  {
+    "id": "notif-0001-0000-0000-000000000005",
+    "order_id": "ord-0001-0000-0000-000000000013",
+    "notification_type": "Delivery Confirmation",
+    "message": "Order ORD-1013 has been delivered.",
+    "created_at": "2026-06-18T14:00:00.000Z"
+  },
+  {
+    "id": "notif-0001-0000-0000-000000000006",
+    "order_id": "ord-0001-0000-0000-000000000002",
+    "notification_type": "Tracking Update",
+    "message": "Order ORD-1002 status updated to In Transit.",
+    "created_at": "2026-06-24T05:00:00.000Z"
+  },
+  {
+    "id": "notif-0001-0000-0000-000000000007",
+    "order_id": "ord-0001-0000-0000-000000000006",
+    "notification_type": "Tracking Update",
+    "message": "Order ORD-1006 status updated to Out For Delivery.",
+    "created_at": "2026-06-30T07:00:00.000Z"
+  },
+  {
+    "id": "notif-0001-0000-0000-000000000008",
+    "order_id": "ord-0001-0000-0000-000000000004",
+    "notification_type": "Tracking Update",
+    "message": "Order ORD-1004 status updated to Shipped.",
+    "created_at": "2026-06-25T14:30:00.000Z"
+  },
+  {
+    "id": "notif-0001-0000-0000-000000000009",
+    "order_id": "ord-0001-0000-0000-000000000008",
+    "notification_type": "Tracking Update",
+    "message": "Order ORD-1008 status updated to Returned.",
+    "created_at": "2026-06-12T07:00:00.000Z"
+  }
+]

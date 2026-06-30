@@ -1,0 +1,87 @@
+[
+  {
+    "id": "log-0001-0000-0000-000000000001",
+    "action": "ORDER_FETCHED",
+    "payload": {
+      "order_number": "ORD-1001",
+      "found": true
+    },
+    "created_at": "2026-06-15T10:00:00.500Z"
+  },
+  {
+    "id": "log-0001-0000-0000-000000000002",
+    "action": "TRACKING_ANALYZED",
+    "payload": {
+      "order_number": "ORD-1001",
+      "tracking_count": 7,
+      "latest_status": "Delivered"
+    },
+    "created_at": "2026-06-15T10:00:00.600Z"
+  },
+  {
+    "id": "log-0001-0000-0000-000000000003",
+    "action": "RESPONSE_GENERATED",
+    "payload": {
+      "order_number": "ORD-1001",
+      "intent": "order_inquiry"
+    },
+    "created_at": "2026-06-15T10:00:01.000Z"
+  },
+  {
+    "id": "log-0001-0000-0000-000000000004",
+    "action": "ORDER_FETCHED",
+    "payload": {
+      "order_number": "ORD-1003",
+      "found": true
+    },
+    "created_at": "2026-06-28T14:00:00.500Z"
+  },
+  {
+    "id": "log-0001-0000-0000-000000000005",
+    "action": "TRACKING_ANALYZED",
+    "payload": {
+      "order_number": "ORD-1003",
+      "tracking_count": 4,
+      "latest_status": "In Transit"
+    },
+    "created_at": "2026-06-28T14:00:00.600Z"
+  },
+  {
+    "id": "log-0001-0000-0000-000000000006",
+    "action": "DELAY_DETECTED",
+    "payload": {
+      "order_number": "ORD-1003",
+      "rule_triggered": "R2",
+      "reason": "Past expected delivery date of 2026-06-25"
+    },
+    "created_at": "2026-06-28T14:00:00.700Z"
+  },
+  {
+    "id": "log-0001-0000-0000-000000000007",
+    "action": "RESPONSE_GENERATED",
+    "payload": {
+      "order_number": "ORD-1003",
+      "intent": "order_inquiry",
+      "is_delayed": true
+    },
+    "created_at": "2026-06-28T14:00:02.000Z"
+  },
+  {
+    "id": "log-0001-0000-0000-000000000008",
+    "action": "ORDER_FETCHED",
+    "payload": {
+      "order_number": "ORD-9999",
+      "found": false
+    },
+    "created_at": "2026-06-30T09:00:00.500Z"
+  },
+  {
+    "id": "log-0001-0000-0000-000000000009",
+    "action": "RESPONSE_GENERATED",
+    "payload": {
+      "intent": "general",
+      "message_preview": "Hello! I can help you check the status of your orders."
+    },
+    "created_at": "2026-06-30T11:00:01.000Z"
+  }
+]

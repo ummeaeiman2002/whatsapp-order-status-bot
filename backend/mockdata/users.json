@@ -1,0 +1,44 @@
+[
+  {
+    "id": "u-admin-0001-0000-0000-000000000001",
+    "name": "Admin User",
+    "email": "admin@example.com",
+    "role": "Administrator",
+    "created_at": "2026-04-01T08:00:00.000Z"
+  },
+  {
+    "id": "u-cust-0001-0000-0000-000000000001",
+    "name": "Alice Johnson",
+    "email": "alice.johnson@example.com",
+    "role": "Customer",
+    "created_at": "2026-04-10T10:30:00.000Z"
+  },
+  {
+    "id": "u-cust-0001-0000-0000-000000000002",
+    "name": "Bob Smith",
+    "email": "bob.smith@example.com",
+    "role": "Customer",
+    "created_at": "2026-04-12T14:00:00.000Z"
+  },
+  {
+    "id": "u-cust-0001-0000-0000-000000000003",
+    "name": "Charlie Brown",
+    "email": "charlie.brown@example.com",
+    "role": "Customer",
+    "created_at": "2026-04-15T09:15:00.000Z"
+  },
+  {
+    "id": "u-cust-0001-0000-0000-000000000004",
+    "name": "Diana Prince",
+    "email": "diana.prince@example.com",
+    "role": "Customer",
+    "created_at": "2026-04-18T11:45:00.000Z"
+  },
+  {
+    "id": "u-cust-0001-0000-0000-000000000005",
+    "name": "Eve Davis",
+    "email": "eve.davis@example.com",
+    "role": "Customer",
+    "created_at": "2026-05-01T16:00:00.000Z"
+  }
+]
